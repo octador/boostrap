@@ -1,18 +1,73 @@
-/* Vos customisations des classes de Bootstrap */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arvo', serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.button1 {
+    font-size: 120px;
+}
 
 
+.section1title {
+    font-size: 56px;
+    width: 800px;
+}
 
+.section1p {
+    font-weight: 100;
+    font-size: 15px;
+    width: 700px;
+}
+
+.hr1 {
+    color:rgba(247,76,60,255);
+    width: 130px;
+
+}
 
 /* Responsive Styling */
 
-@media (max-width: 1199px) {
+.fond {
+    background-image: url("../images/hero-image.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
 
 }
 
-@media (max-width: 991px) {
-
+.section2p1 {
+    width: 500px;
 }
 
-@media (max-width: 767px) {
-
+#get-involved {
+    background-color: rgba(241, 241, 241, 0.6);
 }
+
+.footer-main {
+    background-color: rgba(247, 76, 60, 255);
+    height: 300px;
+}
+.footer-image{
+    padding-left: 300px;
+    padding-bottom: 40px;
+}
+.getp3{
+    width: 330px;
+}
+ 
+/* .row{
+    --bs-gutter-x: 0 !important;
+    box-sizing: border-box !important;
+}  */
+
+@media (max-width: 1199px) {}
+
+@media (max-width: 991px) {}
+
+@media (max-width: 767px) {}
