@@ -51,21 +51,25 @@ body {
 
 .footer-main {
     background-color: rgba(247, 76, 60, 255);
-    height: 300px;
 }
-.footer-image{
+/* .footer-image{
     padding-left: 300px;
     padding-bottom: 40px;
-}
+} */
 .getp3{
     width: 330px;
 }
- 
-/* .row{
-    --bs-gutter-x: 0 !important;
-    box-sizing: border-box !important;
-}  */
-
+#return-top{
+    height: 30px;
+}
+#return-top{
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+}
+/* .images{
+    padding-left: 30px;
+} */
 @media (max-width: 1199px) {}
 
 @media (max-width: 991px) {}
